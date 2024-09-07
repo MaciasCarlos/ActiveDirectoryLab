@@ -1,7 +1,8 @@
 <h1>Active Directory Home Lab</h1>
 
 <h2>Description</h2>
-This lab consists of a walk through on how to create an Active Directory home lab Enviroment using Oracle Virtual Box. Configuring and running the lab will help to understand active directory and windows networking.
+
+  This lab consists of a walkthough on how to create an Active Directory Home Lab Enviroment using Oracle Virtual Box. Configuring and running the lab will help to understand automated provision, maintaining and deprovisioning of user accounts by using PowerShell. The lab also shows the setting up of a Remote Access Server (RAS) to support NAT/PAT. Furthermore, there will be implementation and maintenance of Windows DNS and DHCP.
 <br />
 
 
@@ -96,7 +97,7 @@ This lab consists of a walk through on how to create an Active Directory home la
   ![70_Clientgetsaddress](https://github.com/user-attachments/assets/b9e5ce70-be23-4c1b-af88-40d53c6cb627)
   <br/>
   <br/>
-  On the client side you can see that the client is in the server: <br/>
+  On the client side you can see that the client is in the network: <br/>
   ![72_whoami](https://github.com/user-attachments/assets/21c9b653-2a72-4d72-b28d-e5b367b30b86)
   <br/>
   <br/>
