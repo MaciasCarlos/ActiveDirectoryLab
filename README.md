@@ -19,36 +19,6 @@ This lab consists of a walk through on how to create an Active Directory home la
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
-  
-![Summary](https://github.com/user-attachments/assets/5bde2e28-8cd4-4465-9b01-8935b2843aa9)
-<br />
-<br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-
-<p align="center">
   
   Create a Virtual Machine: <br/>
   ![4_Suumary](https://github.com/user-attachments/assets/60c193df-c7fc-4a41-8d13-a00e53e22a33)
@@ -103,10 +73,33 @@ Observe the wiped disk:  <br/>
   <br/>
   <br/>
   Activate Scope then authorize "dc.mydomain.com": <br/>
-  ![53_activare](https://github.com/user-attachments/assets/1e56c012-4e4a-421a-8e39-1d01239c33ec)
+  ![53_activate](https://github.com/user-attachments/assets/1e56c012-4e4a-421a-8e39-1d01239c33ec)
   <br/>
   <br/>
-  
+  Open PowerShell and change directory to folder containing script: <br/>
+  ![59_changedirectory](https://github.com/user-attachments/assets/caa98426-ea89-42ad-b238-92583fe3a5d0)
+  <br/>
+  <br/>
+  Run Script and observe users being created and added: <br/>
+  ![62_users](https://github.com/user-attachments/assets/b91f3538-5156-4bfc-b9db-f1e67dcf59e1)
+  <br/>
+  <br/>
+  Create a new Virtual Machine and install Windows 10 Pro to simulate a client loging into the server: <br/>
+  ![63_client](https://github.com/user-attachments/assets/7a65b40a-fce8-455a-9df5-b22060043e5e)
+  <br/>
+  <br/>
+  Rename the PC and join the domain: <br/>
+  ![69_login](https://github.com/user-attachments/assets/9a5dcb24-543f-472c-bf45-b4c020f53e96)
+  <br/>
+  <br/>
+  On the server side, you can observe that the client has been added:<br/>
+  ![70_Clientgetsaddress](https://github.com/user-attachments/assets/b9e5ce70-be23-4c1b-af88-40d53c6cb627)
+  <br/>
+  <br/>
+  On the client side you can see that the client is in the server: <br/>
+  ![72_whoami](https://github.com/user-attachments/assets/21c9b653-2a72-4d72-b28d-e5b367b30b86)
+  <br/>
+  <br/>
 </p>
 
 <!--
